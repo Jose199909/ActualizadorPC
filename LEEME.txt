@@ -1,0 +1,10 @@
+Actualizador de PC (primera versión)
+
+1. Haz doble clic en Iniciar.cmd.
+2. Pulsa «Buscar actualizaciones».
+3. Marca las que quieras instalar y pulsa «Instalar seleccionadas».
+4. Revisa el resultado en la parte inferior. Si una instalación pide permiso de administrador, acéptalo en Windows.
+
+La aplicación revisa Windows Update, Microsoft Defender y los programas que detecta winget. No desinstala programas ni reinicia el equipo automáticamente. Algunas actualizaciones de programas pueden necesitar que cierres la aplicación correspondiente. El resultado de cada instalación indica si terminó o quedó pendiente.
+
+Requiere Windows 11, PowerShell y winget. La aplicación usa los servicios de actualización del propio equipo.

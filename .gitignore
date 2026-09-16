@@ -1,0 +1,16 @@
+# Archivos temporales y resultados locales
+*.tmp
+*.log
+scan.json
+progress.json
+result.json
+error.json
+selection.json
+
+# Archivos del sistema y editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
