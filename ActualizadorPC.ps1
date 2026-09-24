@@ -54,7 +54,7 @@ function Run-Scan {
 }
 
 function Run-Update {
-    $chosen = @(Get-Content -LiteralPath $SelectionFile -Raw | ConvertFrom-Json)
+    $chosen = @((Get-Content -LiteralPath $SelectionFile -Raw | ConvertFrom-Json))
     $results = @()
     foreach ($item in $chosen) {
         $status = 'Correcto'
